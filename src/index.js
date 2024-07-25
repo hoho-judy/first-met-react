@@ -8,10 +8,11 @@ import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButtonf from './chapter_08/ConfirmButtonf';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <SignUp />
   </React.StrictMode>,
   document.getElementById("root")
 )
